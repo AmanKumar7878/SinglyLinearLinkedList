@@ -68,6 +68,7 @@ public class SinglyLinearLinkedList
         if(head ==null)
         {
             System.out.println("Already null");
+            return;
         }
         Node temp=head;
         while(temp.next.next!=null)
